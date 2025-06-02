@@ -1,0 +1,58 @@
+body {
+    background-color: #ffe6f9;
+    font-family: 'Comic Sans MS', cursive;
+    margin: 40px;
+}
+
+h1, h2 {
+    color: #ff69b4;
+    text-shadow: 1px 1px #ffc0cb;
+}
+
+ul {
+    background-color: #fff0f5;
+    border: 2px dotted #ffb6c1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #ffb6c1;
+}
+
+th {
+    background-color: #ffccdd;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+.botones-nube {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+button.nube {
+    background-color: #ffccdd;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', cursive;
+    color: #fff;
+    box-shadow: 4px 4px 10px rgba(255, 182, 193, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button.nube:hover {
+    background-color: #ffc0cb;
+    transform: scale(1.1);
+    box-shadow: 6px 6px 15px rgba(255, 182, 193, 0.7);
+}
